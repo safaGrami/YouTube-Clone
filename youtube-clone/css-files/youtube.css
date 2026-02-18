@@ -5,6 +5,7 @@ p{
 }
 .thumbnail{
     width:100%;
+    border-radius: 10px;
 }
 
 body{
@@ -13,4 +14,5 @@ body{
     padding-left: 96px ;
     padding-right: 24px;
     background-color: rgb(252, 249, 249);
+
 }
