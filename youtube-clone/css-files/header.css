@@ -56,6 +56,8 @@
     border-color: rgb(214, 214, 214);
     margin-left: -1px;
     margin-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .search-button, .voice-search-button, .upload-icon-container{
@@ -107,9 +109,24 @@
     border-width: 1px;
     border-style: solid;
     border-color: rgb(224, 223, 223);
-    border-radius: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     width: 0;
+}
+
+@media (max-width:600px) {
+    .search-bar {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    .search-button {
+        border-radius: 20px;
+        height: 38px;
+        width: 43px;
+    }
 }
 
 .search-bar::placeholder{
@@ -160,5 +177,3 @@
     height: 32px;
     border-radius: 16px;
 }
-
-
