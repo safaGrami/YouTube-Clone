@@ -8,6 +8,12 @@
     z-index: 200;
 }
 
+@media (max-width:800px) {
+    .sidebar {
+        display: none;
+    }
+}
+
 .sidebar-link{
     height: 74px;
     display: flex;
